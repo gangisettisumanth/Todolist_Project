@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+#block{
+    background-color: hotpink;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+#block h1{
+    text-align: center;
+    font-style: italic;
+    color:white;
+}
+
+
+
+#box #UserInput{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#box #UserInput:focus{
+    border-color: blue;
+}
+
+
+#box #btn{
+    background-color: blue;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+
+
+#items{
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-item{
+    font-size:x-large;
+    height:40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px;
+    padding: 10px;
+    word-break: break-all;
+    background-color: white;
+}
+
+
+.todo-text {
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 10px;
+}
+
+
+.button-container {
+    display: flex;
+    gap: 5px;
+}
+
+.del-btn {
+    border: none;
+    margin:3px 5px;
+    text-decoration: none;
+    color:red;
+    font-size: 25px;
+    
+
+}
+
+.do-btn {
+    border: none;
+    margin:3px 5px 3px  100px ;
+    text-decoration: none;
+    color:green;
+    font-size: 25px;
+}
+
+
+.edit-btn {
+    border: none;
+    background-color:white;
+    color:orange;
+    margin:3px 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    font-size: 25px;
+}
+
+
+.save-btn{
+    border: none;
+    color:blue;
+    margin: 3px 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+.edit-Input {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.edit-Input:focus {
+    border-color: blue;
+}
